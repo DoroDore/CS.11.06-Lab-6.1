@@ -48,7 +48,7 @@ public class AdventureTime {
         int first;
         int second;
         int count = 0;
-        for (int i = 0; i < arr.length-5; i++) {
+        for (int i = 0; i < arr.length-3; i++) {
             first = arr[i]+arr[i+1]+arr[i+2];
             second = arr[i+1]+arr[i+2]+arr[i+3];
             if (second > first) {
